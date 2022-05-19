@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1.8fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left{
+    position: relative;
+}
+.container img{
+    width: 300px;
+    height: 300px;
+}
+.container .right{
+    position: relative;
+}
