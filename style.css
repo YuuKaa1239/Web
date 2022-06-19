@@ -20,3 +20,13 @@ body{
 .container .right{
     position: relative;
 }
+
+.right a:link, a:visited {
+    color: navy;
+    text-decoration: underline;
+    cursor: auto;
+  }
+  
+  .right a:link:active, a:visited:active {
+    color: (internal value);
+  }
